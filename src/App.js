@@ -4,7 +4,7 @@ import { uid } from "uid";
 import { useState } from "react";
 import CommentList from "./components/CommentList";
 
-//--
+//
 
 const Heading = styled.h1`
   text-align: center;
