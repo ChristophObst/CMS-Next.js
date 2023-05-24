@@ -1,10 +1,8 @@
-import styled from "styled-components";
+/* import styled from "styled-components";
 import useLocalStorageState from "use-local-storage-state";
 import { uid } from "uid";
 import { useState } from "react";
 import CommentList from "./components/CommentList";
-
-//
 
 const Heading = styled.h1`
   text-align: center;
@@ -386,3 +384,4 @@ export default function App() {
     </>
   );
 }
+ */
