@@ -298,7 +298,7 @@ function App() {
             <h3>Actions</h3>
           </HeadlineContainer>
           {todos.map((todo) => (
-            <li key={todo.id}>
+            <div key={todo.id}>
               <DbContainer>
                 <FirstNameContainer>{todo.name}</FirstNameContainer>
                 <LastNameContainer> {todo.lastName} </LastNameContainer>
@@ -328,7 +328,7 @@ function App() {
                   Delete
                 </DeleteButton>
               </DbContainer>
-            </li>
+            </div>
           ))}
         </div>
       </>
@@ -360,7 +360,7 @@ function App() {
           </HeadlineContainer>
 
           {todos.map((todo) => (
-            <li key={todo.id}>
+            <div key={todo.id}>
               <DbContainer>
                 <FirstNameContainer>{todo.name}</FirstNameContainer>
                 <LastNameContainer> {todo.lastName} </LastNameContainer>
@@ -388,7 +388,7 @@ function App() {
                   Delete
                 </DeleteButton>
               </DbContainer>
-            </li>
+            </div>
           ))}
         </div>
       </>
